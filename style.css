@@ -1,8 +1,154 @@
 #bold {
     font-family: 'Playfair Display', serif;
-    font-family: 'Shadows Into Light', cursive;
+}
+
+#bottom-text
+{
+    font-family: 'Anton', sans-serif;
+}
+
+#footer-text
+{
+    font-family: 'Raleway', sans-serif;
 }
 
 *{
     background-color: black;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.main-text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+nav a {
+    display: block;
+    font-size:20px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.image-container1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column img {
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+.image-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.image-container2 img {
+    max-width: 30%;
+    margin: 10px;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#services p{
+    color: red;
+    padding-top: 50px;
+}
+
+#contact{
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 10px;
+}
+
+#contact h1{
+    font-size: 50px;
+}
+
+#contact p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact a {
+    display: block;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
